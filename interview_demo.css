@@ -1,0 +1,50 @@
+
+.seat_button {
+  line-height: 50px;
+  width: 50px;
+  color: LightGray;
+  border: 1px solid LightGray;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  margin: 5px;
+  float: left;
+  cursor: pointer;
+}
+
+.row {
+  clear: both;
+}
+
+.checkout {
+  clear: both;
+  line-height: 50px;
+  width: 200px;
+  font-weight: bold;
+  color: LightGray;
+  border: 2px solid LightGray;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.selected_box {
+  clear: both;
+  height: 300px;
+  width: 500px;
+  border: 1px solid LightGray;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+
+#seats_selected {
+  list-style: none;
+  padding-left: 0;
+}
+
+#total_seats {
+  font-weight: bold;
+}
